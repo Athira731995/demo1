@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.header{
+    background-color: red;
+}
+.header:hover{
+    background-color: green;
+}
+.rows:nth-child(odd){
+    background-color: grey;
+}
+.rows:hover:nth-child(even){
+    background-color: cyan;
+}
